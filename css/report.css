@@ -1,3 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:700,500|Raleway:400,600|Permanent+Marker');
+
 html {
-    background: #444;
+    background: #0079AA;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+#pageContainer {
+    width: 65%;
+    margin: auto;
+    padding: 25px;
+    background: #FFE4C6;
+}
+
+.articleHeadline {
+    font-family: 'Old Standard TT', serif;
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 700;
+}
+
+h2.citationHeading {
+    padding-top: 50px;
+    font-family: 'Old Standard TT', serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+p.citation {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left !important;
+}
+
+p.footrTxt {
+    text-align: center;
+    font-size: 10px;
+    line-height: 15px;
+    padding: 15px;
+    margin-top: 50px;
+    font-style: italic;
+}
+
+li {
+    padding: 4px;
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 16px;
+}
+
+li a {
+    color: #003650;
 }

@@ -1,21 +1,11 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>The History of the Hello World Program | Nicole Finamore | ITC134 | Winter 2019 | A6: C9 Project</title>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA=Compatible" content="IE-edge,chrome=1" />
-        <meta name="robots" content="noindex,nofollow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <link rel="stylesheet" href="css/main.css" />
-    </head>
+<?php include "includes/header.php" ?> 
+        <link rel="stylesheet" href="css/report.css" />
+    </head> 
     <body>
         <div id="pageContainer">
-            <header>
-                
-            </header>
             <main>
                 <div id="report" class="container">
-                    <h1 class="articleHeadline">HISTORY OF HELLO WORLD APP</h1>
+                    <h1 class="articleHeadline">History of Hello World App</h1>
                     <p class="article">
                         When beginning to enter the world of computer programming, coding for a rookie coder can seem 
                         daunting. The lines of code don’t seem to make sense, and everything is like a foreign language, 
@@ -26,7 +16,7 @@
                         make sure the computer language is working correctly, as can be seen in this article from Wikipedia, 
                         “A “Hello World” program is traditionally used to introduce novice programmers to a programming 
                         language. “Hello, world!” is also traditionally used in a sanity test to make sure that a computer 
-                        language is correctly installed, and that the operator understands how to use it.” (Wikipedia)
+                        language is correctly installed, and that the operator understands how to use it” (Wikipedia).
                     </p>
                     <p class="article">
                         Before ‘Hello World’ was introduced to the public, the thought of even working with computers seemed 
@@ -40,7 +30,7 @@
                         Hello World as a foundation, novice programmers can easily understand computer science principles or elements. 
                         And professionals with years of coding experience can use it to learn how a given programming language works, 
                         especially in terms of structure and syntax. With applications at all skill levels and in almost every language, 
-                        there is a long history behind such a short program.”(Thussong) 
+                        there is a long history behind such a short program” (Thussong).
                     </p>
                     <p class="article">
                         The question that now remains is who actually came up with “Hello World”? Who was the genius who changed the way 
@@ -51,7 +41,7 @@
                         the first known version of the program was used to illustrate external variables. Because the previous example in 
                         the tutorial printed “hi!” on the terminal, the more complex “hello, world!” required more character constants for 
                         expression and was the next step in the learning process. From there, it was used in a Bell Laboratories memo in 
-                        1974, as well as The C Programming Language in 1978. This popular text is what made Hello World famous.” (Thussong)
+                        1974, as well as The C Programming Language in 1978. This popular text is what made Hello World famous” (Thussong).
                     </p>
                     <p class="article">
                         ‘Hello World’ was the change that was needed to introduce computer programming to the masses. Brian Kernighan’s 
@@ -98,10 +88,4 @@
                         </li>
                     </ul>
                 </div>
-            </main>
-            <footer>
-                
-            </footer>
-        </div>
-    </body>
-</html>
+<?php include "includes/footer.php" ?>
